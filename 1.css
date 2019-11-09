@@ -1,0 +1,233 @@
+@charset "utf-8";
+a:hover {
+	color:#000000;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+	color:antiquewhite;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+#logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 139px;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color:#F20004;
+}
+#headerLinks {
+	float: left;
+	width: calc( 100% - 139px );
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(255,255,255,1.00);
+}
+#headerLinks a {
+	text-decoration: none;
+	color:  black;
+	padding-left: 66px;
+	font-size: 14px;
+}
+.container {
+	background-color: #FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.secondary_header {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: black;
+	clear: center;
+}
+.container .secondary_header ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 16%;
+	transition: all 0.3s linear;
+}
+.secondary_header ul li:hover {
+	color: rgba(146,146,146,1.00);
+	cursor: pointer;
+}
+
+#menu {
+}
+#mainWrapper {
+	width: 80%;
+	padding-left: 10%;
+}
+header #headerLinks a {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+#mainWrapper footer {
+	clear: both;
+	overflow: auto;
+	background-color:black;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	padding-right: 22px;
+}
+#mainWrapper footer div {
+	width: 27%;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: white;
+	text-align: justify;
+}
+footer div a {
+	color: rgba(146,146,146,1.00);
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+#mainWrapper footer .footerlinks {
+	padding-left: 8%;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+}
+.dropdown a {
+    display: block;
+    width: 200px;
+    color: white;
+    font-size: 15px;    
+    line-height: 30px;      
+}
+ul  li:hover .dropdown {
+    display: block;
+    background-color: black;
+}
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+    .none_display {
+        display: none;
+    }
+    .dropdown {
+        display: none;
+        width: 80px;
+        text-align: center;
+        position: absolute;
+    }
+    .dropdown a {
+        display: block;
+        color: white;
+        width: 80px;
+        font-size: 15px;    
+        line-height: 30px;      
+    }
+}
+h1{
+    text-align: center;
+}
+h2 {
+	color: #89867e;
+	text-align: center;
+	font-weight: 300;
+}
+.color {
+	width: 350px;
+	margin:  auto;
+}
+.color li {
+	margin: 0 15px 0 0;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 100%;
+}
+
+.color .red    {background: #fa5a5a;}
+.color .yellow {background: #f0d264;}
+.color .green  {background: #82c8a0;}
+.color .cyan   {background: #7fccde;}
+.color .blue   {background: #6698cb;}
+.color .purple {background: #cb99c5;}
+
+
+
+.content, 
+.content-gradient, 
+.content-3d {
+  margin: 40px auto;
+}
+.content {
+  width: 80%;
+  max-width: 700px;
+}
+.content-3d {
+  width: 50%;
+  max-width: 300px;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid rgb(13, 202, 202);
+	color: black;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #6DC7D0;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+	
+                
+}
+h1{
+	text-align: center;
+}
